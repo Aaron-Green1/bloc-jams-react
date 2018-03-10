@@ -33,7 +33,6 @@ class Album extends Component {
           </colgroup>
           <tbody>
             {this.state.album.songs.map((currentList, index) => {
-              console.log(this.state.album.songs[index].title);
               return (
                 <tr key={index}>
                   <td>{index + 1}</td>
