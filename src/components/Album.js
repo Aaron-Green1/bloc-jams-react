@@ -36,14 +36,14 @@ class Album extends Component {
         this.setState({currentVolume: this.audioElement.volume});
       }
     };
-    this.audioElement.addEventListener('timeupdate', this.eventListeners.timeupdate);
+    this.audioElement.addEventListener('timeupdate', this.eventListeners.timeUpdate);
     this.audioElement.addEventListener('durationchange', this.eventListeners.durationchange);
     this.audioElement.addEventListener('volumeupdate', this.eventListeners.volumeupdate);
   }
 
   componentWillUnmount() {
     this.audioElement.src = null;
-    this.audioElement.removeEventListener('timeupdate', this.eventListeners.timeupdate);
+    this.audioElement.removeEventListener('timeupdate', this.eventListeners.timeUpdate);
     this.audioElement.removeEventListener('durationchange', this.eventListeners.durationchange);
     this.audioElement.removeEventListener('volumeupdate', this.eventListeners.volumeupdate);
   }
@@ -145,7 +145,7 @@ class Album extends Component {
                     </button>
                   </td>
                   <td className="song-title">{this.state.album.songs[index].title}</td>
-                  <td className="song-duration">{this.state.album.songs[index].duration}</td>
+                  <td className="song-duration">{this.formatTime(this.state.album.songs[index].duration)}</td>
                 </tr>
               )
             }
