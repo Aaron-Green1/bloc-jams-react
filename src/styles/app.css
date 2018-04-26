@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Pacifico');
+
+nav {
+  background: rgb(195, 227, 243);
+  margin-top: .75rem;
+  text-align: center;
+}
+
+.main-content {
+  margin-top: 1rem;
+}
+
+#link-bar {
+  color: rgb(228, 80, 106);
+  font-size: 1.5rem;
+}
+
+#nav-landing, #nav-library {
+  color: rgb(228, 80, 106);
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+#nav-landing:hover, #nav-library:hover {
+  text-decoration: none;
+  color: rgb(255, 108, 108);
+}
+
+a:active {
+  text-decoration: none;
+}
+
+#nav-landing {
+  font-family: "Pacifico", cursive;
+  font-size: 1.5rem;
+  margin-right: .5rem;
+}
+
+#nav-library {
+  font-family: "Francois One", sans-serif;
+  font-size: 1.5rem;
+  margin-left: .5rem;
+}
