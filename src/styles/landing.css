@@ -25,22 +25,12 @@
 
 .point.one {
   background-color: rgba(238, 248, 255, 0.77);
-  border-left: .75rem solid rgba(230, 174, 47, .5);
-  border-top: .75rem solid rgba(230, 174, 47, .5);
-  border-right: .75rem solid rgb(230, 174, 47);
-  border-bottom: .25rem solid rgb(230, 174, 47);
 }
 
 .point.two {
   background-color: rgba(236, 248, 255, 0.77);
-  border-left: .75rem solid rgba(239, 125, 44 , .5);
-  border-right: .75rem solid rgb(239, 125, 44);
-  border-bottom: .5rem solid rgb(239, 125, 44);
 }
 
 .point.three {
   background-color: rgba(236, 248, 255, 0.77);
-  border-left: .75rem solid rgba(255, 108, 108, .5);
-  border-bottom: .75rem solid rgb(255, 108, 108);
-  border-right: .75rem solid rgb(255, 108, 108);
 }
