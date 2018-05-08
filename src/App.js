@@ -15,7 +15,7 @@ class App extends Component {
           <Col xs={12}>
             <nav>
                 <Link to='/' id="nav-landing">Bloc Jams</Link> <span id="link-bar">|</span>
-                <Link to='/library' id="nav-library">My Music  <span className="ion-music-note"></span></Link>
+                <Link to='/library' id="nav-library">My Music</Link>
             </nav>
           </Col>
           <Col xs={12} className="main-content">

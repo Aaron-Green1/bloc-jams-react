@@ -10,6 +10,7 @@ const Landing = () => (
 
         <Row>
           <Col xs={12} md={4} className="point one">
+            <span class="ion-music-note"></span>
             <h3 className="point-title">Choose your music</h3>
             <div className="point-description one">
               <p>The world is full of music; why should you have to listen to music that someone else chose?</p>
@@ -17,6 +18,7 @@ const Landing = () => (
           </Col>
 
           <Col xs={12} md={4} className="point two">
+            <span class="ion-radio-waves"></span>
             <h3 className="point-title">Unlimited, streaming, ad-free</h3>
             <div className="point-description two">
               <p>No arbitrary limits. No distractions.</p>
@@ -24,6 +26,7 @@ const Landing = () => (
           </Col>
 
           <Col xs={12} md={4} className="point three">
+            <span class="ion-iphone"></span>
             <h3 className="point-title">Mobile enabled</h3>
             <div className="point-description three">
               <p>Listen to your music on the go. This streaming service is available on all mobile platforms.</p>
