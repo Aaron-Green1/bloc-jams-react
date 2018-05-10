@@ -10,6 +10,11 @@ nav {
   margin-top: 1rem;
 }
 
+.col-centered {
+  float: 0;
+  margin: 0 auto;
+}
+
 #link-bar {
   color: rgb(228, 80, 106);
   font-size: 1.5rem;

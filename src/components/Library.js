@@ -12,14 +12,18 @@ class Library extends Component {
 
    render() {
     return (
-      <Row className="library show-grid container">
+      <Row className="library show-grid container col-centered">
         {
           this.state.albums.map( (album, index) =>
-            <Col xs={12} sm={4} md={3} key={index} className="library-album-section">
+            <Col xs={12} sm={6} md={6} key={index} className="library-album-section">
               <Link to={`/album/${album.slug}`} className="library-album-info">
-                <Image responsive src={album.albumCover} alt={album.title} />
-                <div className="library-album-artist">{album.artist}</div>
-                <div>{album.title}</div>
+                  <Image responsive rounded src={album.albumCover} alt={album.title} />
+                  <div className="overlay-container">
+                  <div className="overlay-text">
+                    <div className="library-album-artist">{album.artist}</div>
+                    <div>{album.title}</div>
+                  </div>
+                </div>
               </Link>
             </Col>
           )

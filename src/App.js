@@ -10,7 +10,7 @@ import './styles/app.css';
 class App extends Component {
   render() {
     return (
-    <Grid>
+    <Grid className="col-centered">
         <Row className="show-grid">
           <Col xs={12}>
             <nav>
