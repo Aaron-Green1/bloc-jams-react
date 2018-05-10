@@ -39,7 +39,10 @@ tr:hover, {
   cursor: pointer;
 }
 
-.ion-btn:hover, .ion-play:hover, .ion-pause:hover, song-number:hover {
+/*.album-info .ion-btn:hover, 
+.album-info .ion-play:hover, 
+.album-info .ion-pause:hover, */
+.album-info .song-number:hover {
   color: rgb(65, 153, 153);
 }
 

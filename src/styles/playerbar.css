@@ -6,13 +6,17 @@
 }
 
 .ion-btn {
+  background-color: transparent;
   border: none;
-  background-color: none;
+}
+
+.ion-btn span {
+  background: none;
   font-size: 2.5rem;
   color: rgba(65, 153, 153, 0.8);
 }
 
-.ion-btn:hover, .ion-play:hover, .ion-pause:hover {
+.ion-btn:hover span {
   background-color: none;
   font-size: 2.5rem;
   color: rgb(65, 153, 153);
@@ -51,7 +55,7 @@
   margin-top: 1rem;
 }
 
-.player-buttons .ion-btn, .ion-btn .ion-play, .ion-btn .ion-pause  {
+.player-buttons .ion-btn span  {
   font-size: 2.25rem;
   background: none;
 }
