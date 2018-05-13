@@ -23,6 +23,7 @@
 .overlay-container:hover {
   opacity: 1;
   margin-bottom: 50px;
+  border-radius: 15px;
 }
 
 .overlay-text {
@@ -38,6 +39,8 @@
   -ms-transform: translate(-50%, -50%);
 }
 
-library-album-section + .library-album-section {
-  margin-top: 1em;
+@media (max-width: 767px) {
+  .library-album-section + .library-album-section {
+    margin-top: 1em;
+  }
 }
